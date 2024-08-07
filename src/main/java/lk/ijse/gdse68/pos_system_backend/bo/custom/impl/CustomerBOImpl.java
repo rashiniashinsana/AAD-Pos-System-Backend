@@ -1,8 +1,8 @@
 package lk.ijse.gdse68.pos_system_backend.bo.custom.impl;
 
 import lk.ijse.gdse68.pos_system_backend.bo.custom.CustomerBO;
-import lk.ijse.gdse68.pos_system_backend.dao.CustomerDAO;
-import lk.ijse.gdse68.pos_system_backend.dao.CustomerDAOImpl;
+import lk.ijse.gdse68.pos_system_backend.dao.custom.CustomerDAO;
+import lk.ijse.gdse68.pos_system_backend.dao.custom.impl.CustomerDAOImpl;
 import lk.ijse.gdse68.pos_system_backend.dto.CustomerDTO;
 import lk.ijse.gdse68.pos_system_backend.entity.Customer;
 

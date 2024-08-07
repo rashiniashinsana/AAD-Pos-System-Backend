@@ -1,7 +1,8 @@
-package lk.ijse.gdse68.pos_system_backend.dao;
+package lk.ijse.gdse68.pos_system_backend.dao.custom.impl;
 
+import lk.ijse.gdse68.pos_system_backend.dao.custom.CustomerDAO;
 import lk.ijse.gdse68.pos_system_backend.entity.Customer;
-import lk.ijse.gdse68.pos_system_backend.util.CrudUtil;
+import lk.ijse.gdse68.pos_system_backend.dao.util.CrudUtil;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

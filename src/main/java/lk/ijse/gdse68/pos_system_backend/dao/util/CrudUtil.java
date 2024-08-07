@@ -1,4 +1,4 @@
-package lk.ijse.gdse68.pos_system_backend.util;
+package lk.ijse.gdse68.pos_system_backend.dao.util;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

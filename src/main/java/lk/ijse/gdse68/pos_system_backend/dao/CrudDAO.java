@@ -1,11 +1,11 @@
-package lk.ijse.gdse68.pos_system_backend.util;
+package lk.ijse.gdse68.pos_system_backend.dao;
 
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public interface CrudDAO <T> extends SuperDAO{
+public interface CrudDAO <T> extends SuperDAO {
 
     public boolean save(Connection connection, T entity) throws SQLException;
 

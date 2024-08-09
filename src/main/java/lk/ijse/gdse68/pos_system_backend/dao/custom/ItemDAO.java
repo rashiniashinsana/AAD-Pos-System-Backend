@@ -1,4 +1,4 @@
-package lk.ijse.gdse68.pos_system_backend.dao;
+package lk.ijse.gdse68.pos_system_backend.dao.custom;
 
 import lk.ijse.gdse68.pos_system_backend.entity.Item;
 

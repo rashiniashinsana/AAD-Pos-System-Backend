@@ -1,6 +1,6 @@
 package lk.ijse.gdse68.pos_system_backend.dao.custom.impl;
 
-import lk.ijse.gdse68.pos_system_backend.dao.ItemDAO;
+import lk.ijse.gdse68.pos_system_backend.dao.custom.ItemDAO;
 import lk.ijse.gdse68.pos_system_backend.dao.util.CrudUtil;
 import lk.ijse.gdse68.pos_system_backend.entity.Item;
 
@@ -34,8 +34,7 @@ public class ItemDAOImpl implements ItemDAO {
                         rst.getString(1),
                         rst.getString(2),
                         rst.getBigDecimal(3),
-                        rst.getString(4),
-                        rst.getInt(5)
+                        rst.getInt(4)
 
                 );
 
